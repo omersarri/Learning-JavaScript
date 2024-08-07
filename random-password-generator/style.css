@@ -1,0 +1,46 @@
+#container{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+label{
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+input{
+    text-align: center;
+    width: 50px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: hsl(208, 84%, 47%, 50%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: hsl(208, 84%, 47%, 70%);
+
+}
+
+button:active{
+    background-color: hsl(208, 84%, 47%, 90%);
+
+}
+
+#result{
+    font-weight: bold;
+}
